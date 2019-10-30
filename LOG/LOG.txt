@@ -1,0 +1,289 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.
+
+CUsersmiriusgit
+usage git [--version] [--help] [-C path] [-c name=value]
+           [--exec-path[=path]] [--html-path] [--man-path] [--info-path]
+           [-p  --paginate  -P  --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=path] [--work-tree=path] [--namespace=name]
+           command [args]
+
+These are common Git commands used in various situations
+
+start a working area (see also git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help command' or 'git help concept'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+CUsersmiriusgit --help
+usage git [--version] [--help] [-C path] [-c name=value]
+           [--exec-path[=path]] [--html-path] [--man-path] [--info-path]
+           [-p  --paginate  -P  --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=path] [--work-tree=path] [--namespace=name]
+           command [args]
+
+These are common Git commands used in various situations
+
+start a working area (see also git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help command' or 'git help concept'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+CUsersmiriusgit help everyday
+
+CUsersmiriuscd d
+D
+
+CUsersmiriusdir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома FA60-598C
+
+ Содержимое папки CUsersmirius
+
+30.10.2019  1715    DIR          .
+30.10.2019  1715    DIR          ..
+20.10.2019  1542               168 .bash_history
+20.10.2019  1536                34 .gitconfig
+19.10.2019  0720    DIR          3D Objects
+06.05.2018  2051    DIR          ansel
+30.10.2019  1715    DIR          code_info
+19.10.2019  0720    DIR          Contacts
+19.10.2019  0720    DIR          Desktop
+19.10.2019  0720    DIR          Documents
+20.10.2019  1543    DIR          Downloads
+19.10.2019  0720    DIR          Favorites
+19.10.2019  0720    DIR          Links
+19.10.2019  0720    DIR          Music
+13.10.2019  1640    DIR          OneDrive
+19.10.2019  0720    DIR          Pictures
+19.10.2019  0720    DIR          Saved Games
+19.10.2019  0720    DIR          Searches
+12.12.2017  2140    DIR          Tracing
+30.10.2019  1633    DIR          Videos
+               2 файлов            202 байт
+              18 папок  53 983 752 192 байт свободно
+
+CUsersmiriushelp
+Для получения сведений об определенной команде наберите HELP имя команды
+ASSOC          Вывод либо изменение сопоставлений по расширениям имен файлов.
+ATTRIB         Отображение и изменение атрибутов файлов.
+BREAK        Включение и выключение режима обработки комбинации клавиш CTRL+C.
+BCDEDIT        Задает свойства в базе данных загрузки для управления начальной
+               загрузкой.
+CACLS          Отображение и редактирование списков управления доступом (ACL)
+               к файлам.
+CALL           Вызов одного пакетного файла из другого.
+CD             Вывод имени либо смена текущей папки.
+CHCP           Вывод либо установка активной кодовой страницы.
+CHDIR          Вывод имени либо смена текущей папки.
+CHKDSK         Проверка диска и вывод статистики.
+CHKNTFS        Отображение или изменение выполнения проверки диска во время
+               загрузки.
+CLS            Очистка экрана.
+CMD            Запуск еще одного интерпретатора командных строк Windows.
+COLOR       Установка цветов переднего плана и фона, используемых по умолчанию.
+COMP           Сравнение содержимого двух файлов или двух наборов файлов.
+COMPACT        Отображение и изменение сжатия файлов в разделах NTFS.
+CONVERT        Преобразует тома FAT в NTFS. Вы не можете
+               преобразовать текущий диск.
+COPY           Копирование одного или нескольких файлов в другое место.
+DATE           Вывод либо установка текущей даты.
+DEL            Удаление одного или нескольких файлов.
+DIR            Вывод списка файлов и подпапок из указанной папки.
+DISKPART       Отображает или настраивает свойства раздела диска.
+DOSKEY         Редактирует командные строки, повторно вызывает команды Windows и создает
+               макросы.
+DRIVERQUERY    Отображает текущее состояние и свойства драйвера устройства.
+ECHO           Отображает сообщения и переключает режим отображения команд на экране.
+ENDLOCAL       Завершает локализацию изменений среды для пакетного файла.
+ERASE          Удаляет один или несколько файлов.
+EXIT           Завершает работу программы CMD.EXE (интерпретатора командных строк).
+FC             Сравнивает два файла или два набора файлов и
+               отображает различия между ними.
+FIND           Ищет текстовую строку в одном или нескольких файлах.
+FINDSTR        Ищет строки в файлах.
+FOR            Запускает указанную команду для каждого из файлов в наборе.
+FORMAT         Форматирует диск для работы с Windows.
+FSUTIL         Отображает или настраивает свойства файловой системы.
+FTYPE          Отображает либо изменяет типы файлов, используемые при
+               сопоставлении по расширениям имен файлов.
+GOTO           Направляет интерпретатор команд Windows в отмеченную строку
+               пакетной программы.
+GPRESULT       Отображает информацию о групповой политике для компьютера или пользователя.
+GRAFTABL       Позволяет Windows отображать расширенный набор символов в
+               графическом режиме.
+HELP           Выводит справочную информацию о командах Windows.
+ICACLS         Отображает, изменяет, архивирует или восстанавливает
+               списки ACL для файлов и каталогов.
+IF             Выполняет условную обработку в пакетных программах.
+LABEL          Создает, изменяет или удаляет метки тома для дисков.
+MD             Создает каталог.
+MKDIR          Создает каталог.
+MKLINK         Создает символьные ссылки и жесткие связи
+MODE           Настраивает системные устройства.
+MORE           Последовательно отображает данные по частям размером в один экран.
+MOVE           Перемещает один или несколько файлов из одного каталога
+               в другой.
+OPENFILES      Отображает файлы, открытые для файлового ресурса удаленными пользователями.
+PATH           Отображает или устанавливает путь поиска исполняемых файлов.
+PAUSE          Приостанавливает выполнение пакетного файла и выводит сообщение.
+POPD           Восстанавливает предыдущее значение текущего каталога,
+               сохраненное с помощью команды PUSHD.
+PRINT          Выводит на печать содержимое текстового файла.
+PROMPT         Изменяет командную строку Windows.
+PUSHD          Сохраняет текущий каталог, затем изменяет его.
+RD             Удаляет каталог.
+RECOVER        Восстанавливает данные, которые можно прочитать, с плохого или поврежденного диска.
+REM            Записывает комментарии в пакетные файлы или файл CONFIG.SYS.
+REN            Переименовывает файлы.
+RENAME         Переименовывает файлы.
+REPLACE        Заменяет файлы.
+RMDIR          Удаляет каталог.
+ROBOCOPY       Улучшенная служебная программа копирования файлов и деревьев папок
+SET            Показывает, устанавливает или удаляет переменные среды Windows.
+SETLOCAL       Начинает локализацию изменений среды в пакетном файле.
+SC             Отображает или настраивает службы (фоновые процессы).
+SCHTASKS       Выполняет команды и запускает программы на компьютере по расписанию.
+SHIFT          Изменяет положение заменяемых параметров в пакетных файлах.
+SHUTDOWN       Позволяет локально или удаленно завершить работу компьютера.
+SORT           Сортирует ввод.
+START          Выполняет указанную программу или команду в отдельном окне.
+SUBST          Связывает путь с именем диска.
+SYSTEMINFO     Отображает сведения о свойствах и конфигурации определенного компьютера.
+TASKLIST       Отображает все выполняемые задачи, включая службы.
+TASKKILL       Прекращение или остановка процесса либо приложения.
+TIME           Отображает или устанавливает системное время.
+TITLE          Назначает заголовок окна для сеанса CMD.EXE.
+TREE           Графически отображает структуру каталогов диска или
+          пути.
+TYPE           Отображает содержимое текстовых файлов.
+VER            Отображает сведения о версии Windows.
+VERIFY         Устанавливает режим проверки в Windows правильности записи
+               файлов на диск.
+VOL            Отображает метку и серийный номер тома для диска.
+XCOPY          Копирует файлы и деревья папок.
+WMIC           Отображает сведения об инструментарии WMI в интерактивной командной оболочке.
+
+Дополнительные сведения о средствах см. в описании программ командной строки в справке.
+
+CUsersmiriusdir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома FA60-598C
+
+ Содержимое папки CUsersmirius
+
+30.10.2019  1715    DIR          .
+30.10.2019  1715    DIR          ..
+20.10.2019  1542               168 .bash_history
+20.10.2019  1536                34 .gitconfig
+19.10.2019  0720    DIR          3D Objects
+06.05.2018  2051    DIR          ansel
+30.10.2019  1715    DIR          code_info
+19.10.2019  0720    DIR          Contacts
+19.10.2019  0720    DIR          Desktop
+19.10.2019  0720    DIR          Documents
+20.10.2019  1543    DIR          Downloads
+19.10.2019  0720    DIR          Favorites
+19.10.2019  0720    DIR          Links
+19.10.2019  0720    DIR          Music
+13.10.2019  1640    DIR          OneDrive
+19.10.2019  0720    DIR          Pictures
+19.10.2019  0720    DIR          Saved Games
+19.10.2019  0720    DIR          Searches
+12.12.2017  2140    DIR          Tracing
+30.10.2019  1633    DIR          Videos
+               2 файлов            202 байт
+              18 папок  53 983 744 000 байт свободно
+
+CUsersmiriuscd code_info
+
+CUsersmiriuscode_infogit init
+Initialized empty Git repository in CUsersmiriuscode_info.git
+
+CUsersmiriuscode_infogit clone httpsgithub.com3355844java_info.git
+Cloning into 'java_info'...
+remote Enumerating objects 6, done.
+remote Counting objects 100% (66), done.
+remote Compressing objects 100% (55), done.
+remote Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects 100% (66), done.
+
+CUsersmiriuscode_infodir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома FA60-598C
+
+ Содержимое папки CUsersmiriuscode_info
+
+30.10.2019  1719    DIR          .
+30.10.2019  1719    DIR          ..
+30.10.2019  1719    DIR          java_info
+               0 файлов              0 байт
+               3 папок  53 978 808 320 байт свободно
+
+CUsersmiriuscode_infocd java_info
+
+CUsersmiriuscode_infojava_info
