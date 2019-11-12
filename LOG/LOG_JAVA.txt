@@ -1,0 +1,202 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.
+
+C:\Users\mirius>java
+Usage: java [options] <mainclass> [args...]
+           (to execute a class)
+   or  java [options] -jar <jarfile> [args...]
+           (to execute a jar file)
+   or  java [options] -m <module>[/<mainclass>] [args...]
+       java [options] --module <module>[/<mainclass>] [args...]
+           (to execute the main class in a module)
+   or  java [options] <sourcefile> [args]
+           (to execute a single source-file program)
+
+ Arguments following the main class, source file, -jar <jarfile>,
+ -m or --module <module>/<mainclass> are passed as the arguments to
+ main class.
+
+ where options include:
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+    --class-path <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -p <module path>
+    --module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules.
+    --upgrade-module-path <module path>...
+                  A ; separated list of directories, each directory
+                  is a directory of modules that replace upgradeable
+                  modules in the runtime image
+    --add-modules <module name>[,<module name>...]
+                  root modules to resolve in addition to the initial module.
+                  <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+                  ALL-MODULE-PATH.
+    --list-modules
+                  list observable modules and exit
+    -d <module name>
+    --describe-module <module name>
+                  describe a module and exit
+    --dry-run     create VM and load main class but do not execute main method.
+                  The --dry-run option may be useful for validating the
+                  command-line options such as the module system configuration.
+    --validate-modules
+                  validate all modules and exit
+                  The --validate-modules option may be useful for finding
+                  conflicts and other errors with modules on the module path.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|module|gc|jni]
+                  enable verbose output for the given subsystem
+    -version      print product version to the error stream and exit
+    --version     print product version to the output stream and exit
+    -showversion  print product version to the error stream and continue
+    --show-version
+                  print product version to the output stream and continue
+    --show-module-resolution
+                  show module resolution output during startup
+    -? -h -help
+                  print this help message to the error stream
+    --help        print this help message to the output stream
+    -X            print help on extra options to the error stream
+    --help-extra  print help on extra options to the output stream
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:jdwp
+                  see also -agentlib:jdwp=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+                  HiDPI scaled images are automatically supported and used
+                  if available. The unscaled image filename, e.g. image.ext,
+                  should always be passed as the argument to the -splash option.
+                  The most appropriate scaled image provided will be picked up
+                  automatically.
+                  See the SplashScreen API documentation for more information
+    @argument files
+                  one or more argument files containing options
+    -disable-@files
+                  prevent further argument file expansion
+    --enable-preview
+                  allow classes to depend on preview features of this release
+To specify an argument for a long option, you can use --<name>=<value> or
+--<name> <value>.
+
+
+C:\Users\mirius>java -version
+java version "13.0.1" 2019-10-15
+Java(TM) SE Runtime Environment (build 13.0.1+9)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
+
+C:\Users\mirius>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: FA60-598C
+
+ Содержимое папки C:\Users\mirius
+
+08.11.2019  18:25    <DIR>          .
+08.11.2019  18:25    <DIR>          ..
+20.10.2019  15:42               168 .bash_history
+30.10.2019  17:34                58 .gitconfig
+19.10.2019  07:20    <DIR>          3D Objects
+06.05.2018  20:51    <DIR>          ansel
+30.10.2019  17:19    <DIR>          code_info
+19.10.2019  07:20    <DIR>          Contacts
+19.10.2019  07:20    <DIR>          Desktop
+01.11.2019  21:24    <DIR>          Documents
+12.11.2019  15:15    <DIR>          Downloads
+19.10.2019  07:20    <DIR>          Favorites
+19.10.2019  07:20    <DIR>          Links
+19.10.2019  07:20    <DIR>          Music
+01.11.2019  20:47    <DIR>          OneDrive
+19.10.2019  07:20    <DIR>          Pictures
+19.10.2019  07:20    <DIR>          Saved Games
+19.10.2019  07:20    <DIR>          Searches
+12.12.2017  21:40    <DIR>          Tracing
+12.11.2019  16:38    <DIR>          Videos
+               2 файлов            226 байт
+              18 папок  54 047 371 264 байт свободно
+
+C:\Users\mirius>cd code info
+Системе не удается найти указанный путь.
+
+C:\Users\mirius>cd code_info
+
+C:\Users\mirius\code_info>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: FA60-598C
+
+ Содержимое папки C:\Users\mirius\code_info
+
+30.10.2019  17:19    <DIR>          .
+30.10.2019  17:19    <DIR>          ..
+30.10.2019  17:24    <DIR>          java_info
+               0 файлов              0 байт
+               3 папок  54 042 562 560 байт свободно
+
+C:\Users\mirius\code_info>cd java_info
+
+C:\Users\mirius\code_info\java_info>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\mirius\code_info\java_info>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/3355844/java_info
+   7eeba62..083bbc0  master     -> origin/master
+Updating 7eeba62..083bbc0
+Fast-forward
+ SomeOne/SO_java_install_07_11_2019.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 SomeOne/SO_java_install_07_11_2019.txt
+
+C:\Users\mirius\code_info\java_info>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: FA60-598C
+
+ Содержимое папки C:\Users\mirius\code_info\java_info
+
+12.11.2019  16:42    <DIR>          .
+12.11.2019  16:42    <DIR>          ..
+30.10.2019  17:19    <DIR>          books
+30.10.2019  17:24    <DIR>          LOG
+12.11.2019  16:42    <DIR>          SomeOne
+               0 файлов              0 байт
+               5 папок  54 043 406 336 байт свободно
+
+C:\Users\mirius\code_info\java_info>cd someone
+
+C:\Users\mirius\code_info\java_info\SomeOne>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: FA60-598C
+
+ Содержимое папки C:\Users\mirius\code_info\java_info\SomeOne
+
+12.11.2019  16:42    <DIR>          .
+12.11.2019  16:42    <DIR>          ..
+12.11.2019  16:42               190 SO_java_install_07_11_2019.txt
+               1 файлов            190 байт
+               2 папок  54 042 419 200 байт свободно
+
+C:\Users\mirius\code_info\java_info\SomeOne>
